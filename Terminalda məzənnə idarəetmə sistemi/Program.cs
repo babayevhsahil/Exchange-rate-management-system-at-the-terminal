@@ -33,7 +33,7 @@
                 }
                 else if (comand == "2) Valyuta mezennesini kodla tapin")
                 {
-                    Console.WriteLine("Zehmet olmasa mezennenin alfa kodunu daxil edin: ");
+                    Console.WriteLine("Mezenne hansi valyuta kodu ile hesablansin? USD, EUR, GBP, RUB, TRY: ");
                     string currencyCode = Console.ReadLine();
 
                     if (currencyRates.ContainsKey(currencyCode))
@@ -50,7 +50,7 @@
                     Console.WriteLine("Zehmet olmasa meblegi daxil edin: ");
                     double amount = Convert.ToDouble(Console.ReadLine());
 
-                    Console.WriteLine("Zehmet olmasa mezennenin alfa kodunu daxil edin: ");
+                    Console.WriteLine("Mezenne hansi valyuta kodu ile hesablansin? USD, EUR, GBP, RUB, TRY: ");
                     string currencyCode = Console.ReadLine();
 
                     if (currencyRates.ContainsKey(currencyCode))
