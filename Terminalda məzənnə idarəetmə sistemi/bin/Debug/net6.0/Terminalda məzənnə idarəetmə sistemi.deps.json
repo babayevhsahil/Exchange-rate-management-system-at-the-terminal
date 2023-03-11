@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Terminalda məzənnə idarəetmə sistemi/1.0.0": {
+        "runtime": {
+          "Terminalda məzənnə idarəetmə sistemi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Terminalda məzənnə idarəetmə sistemi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

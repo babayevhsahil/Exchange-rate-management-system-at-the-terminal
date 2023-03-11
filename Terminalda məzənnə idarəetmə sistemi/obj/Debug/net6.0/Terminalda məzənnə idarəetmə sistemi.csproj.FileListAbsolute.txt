@@ -1,0 +1,15 @@
+C:\Users\SAHIL\Desktop\Exchange rate management system at the terminal\Terminalda məzənnə idarəetmə sistemi\bin\Debug\net6.0\Terminalda məzənnə idarəetmə sistemi.exe
+C:\Users\SAHIL\Desktop\Exchange rate management system at the terminal\Terminalda məzənnə idarəetmə sistemi\bin\Debug\net6.0\Terminalda məzənnə idarəetmə sistemi.deps.json
+C:\Users\SAHIL\Desktop\Exchange rate management system at the terminal\Terminalda məzənnə idarəetmə sistemi\bin\Debug\net6.0\Terminalda məzənnə idarəetmə sistemi.runtimeconfig.json
+C:\Users\SAHIL\Desktop\Exchange rate management system at the terminal\Terminalda məzənnə idarəetmə sistemi\bin\Debug\net6.0\Terminalda məzənnə idarəetmə sistemi.dll
+C:\Users\SAHIL\Desktop\Exchange rate management system at the terminal\Terminalda məzənnə idarəetmə sistemi\bin\Debug\net6.0\Terminalda məzənnə idarəetmə sistemi.pdb
+C:\Users\SAHIL\Desktop\Exchange rate management system at the terminal\Terminalda məzənnə idarəetmə sistemi\obj\Debug\net6.0\Terminalda məzənnə idarəetmə sistemi.csproj.AssemblyReference.cache
+C:\Users\SAHIL\Desktop\Exchange rate management system at the terminal\Terminalda məzənnə idarəetmə sistemi\obj\Debug\net6.0\Terminalda məzənnə idarəetmə sistemi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SAHIL\Desktop\Exchange rate management system at the terminal\Terminalda məzənnə idarəetmə sistemi\obj\Debug\net6.0\Terminalda məzənnə idarəetmə sistemi.AssemblyInfoInputs.cache
+C:\Users\SAHIL\Desktop\Exchange rate management system at the terminal\Terminalda məzənnə idarəetmə sistemi\obj\Debug\net6.0\Terminalda məzənnə idarəetmə sistemi.AssemblyInfo.cs
+C:\Users\SAHIL\Desktop\Exchange rate management system at the terminal\Terminalda məzənnə idarəetmə sistemi\obj\Debug\net6.0\Terminalda məzənnə idarəetmə sistemi.csproj.CoreCompileInputs.cache
+C:\Users\SAHIL\Desktop\Exchange rate management system at the terminal\Terminalda məzənnə idarəetmə sistemi\obj\Debug\net6.0\Terminalda məzənnə idarəetmə sistemi.dll
+C:\Users\SAHIL\Desktop\Exchange rate management system at the terminal\Terminalda məzənnə idarəetmə sistemi\obj\Debug\net6.0\refint\Terminalda məzənnə idarəetmə sistemi.dll
+C:\Users\SAHIL\Desktop\Exchange rate management system at the terminal\Terminalda məzənnə idarəetmə sistemi\obj\Debug\net6.0\Terminalda məzənnə idarəetmə sistemi.pdb
+C:\Users\SAHIL\Desktop\Exchange rate management system at the terminal\Terminalda məzənnə idarəetmə sistemi\obj\Debug\net6.0\Terminalda məzənnə idarəetmə sistemi.genruntimeconfig.cache
+C:\Users\SAHIL\Desktop\Exchange rate management system at the terminal\Terminalda məzənnə idarəetmə sistemi\obj\Debug\net6.0\ref\Terminalda məzənnə idarəetmə sistemi.dll
