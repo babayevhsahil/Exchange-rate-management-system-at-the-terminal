@@ -4,31 +4,29 @@
     {
         static void Main()
         {
-            var currencyRates = new Dictionary<string, double>()
-            {
-              {"USD", 1.7},
-              {"EUR", 2.0},
-              {"GBP", 2.3},
-              {"RUB", 0.023},
-              {"TRY", 0.20}
-            };
+            double[] currencyRates = { 1.7, 2.0, 2.3, 0.023, 0.20 };
+            string[] currencyCodes = { "USD", "EUR", "GBP", "RUB", "TRY" };
 
-            Console.WriteLine("Zehmet olmasa bir komanda secin: ");
-            Console.WriteLine("1) Son valyuta mezennelerini gösterin");
-            Console.WriteLine("2) Valyuta mezennesini kodla tapin");
-            Console.WriteLine("3) Valyuta ile meblegi hesablayin");
-            Console.WriteLine("4) Exit");
-
-            string comand = Console.ReadLine();
+            string comand = "";
 
             while (comand != "4) Exit")
             {
+                Console.WriteLine("Zehmet olmasa bir komanda secin: ");
+                Console.WriteLine("1) Son valyuta mezennelerini gösterin");
+                Console.WriteLine("2) Valyuta mezennesini kodla tapin");
+                Console.WriteLine("3) Valyuta ile meblegi hesablayin");
+                Console.WriteLine("4) Exit");
+                Console.WriteLine("-----------------------------------------------------------------");
+
+                comand = Console.ReadLine();
+
                 if (comand == "1) Son valyuta mezennelerini gösterin")
                 {
                     Console.WriteLine("Mezenne kodlari ve kurs qiymetleri:");
-                    foreach (string currencyCode in currencyRates.Keys)
+                    Console.WriteLine("-----------------------------------------------------------------");
+                    for (int i = 0; i < currencyCodes.Length; i++)
                     {
-                        Console.WriteLine("{0}   {1}", currencyCode, currencyRates[currencyCode]);
+                        Console.WriteLine("{0}   {1}", currencyCodes[i], currencyRates[i]);
                     }
                 }
                 else if (comand == "2) Valyuta mezennesini kodla tapin")
@@ -36,9 +34,11 @@
                     Console.WriteLine("Mezenne hansi valyuta kodu ile hesablansin? USD, EUR, GBP, RUB, TRY: ");
                     string currencyCode = Console.ReadLine();
 
-                    if (currencyRates.ContainsKey(currencyCode))
+                    int index = Array.IndexOf(currencyCodes, currencyCode);
+
+                    if (index != -1)
                     {
-                        Console.WriteLine("{0}   {1}", currencyCode, currencyRates[currencyCode]);
+                        Console.WriteLine("{0}   {1}", currencyCode, currencyRates[index]);
                     }
                     else
                     {
@@ -48,36 +48,35 @@
                 else if (comand == "3) Valyuta ile meblegi hesablayin")
                 {
                     Console.WriteLine("Zehmet olmasa meblegi daxil edin: ");
+                    Console.WriteLine("-----------------------------------------------------------------");
                     double amount = Convert.ToDouble(Console.ReadLine());
 
                     Console.WriteLine("Mezenne hansi valyuta kodu ile hesablansin? USD, EUR, GBP, RUB, TRY: ");
-                    string currencyCode = Console.ReadLine();
+                    Console.WriteLine("-----------------------------------------------------------------");
+                    string currencyCode1 = Console.ReadLine();
 
-                    if (currencyRates.ContainsKey(currencyCode))
+                    int index1 = Array.IndexOf(currencyCodes, currencyCode1);
+
+                    if (index1 != -1)
                     {
-                        double rate = currencyRates[currencyCode];
+                        double rate = currencyRates[index1];
                         double convertedAmount = amount * rate;
-                        Console.WriteLine("{0} {1} meblegi {2} AZN dir.", amount, currencyCode, convertedAmount);
+                        Console.WriteLine("{0} {1} meblegi {2} AZN dir.", amount, currencyCode1, convertedAmount);
                     }
                     else
                     {
                         Console.WriteLine("Sistemde mezenne tapilmadi.");
+                        Console.WriteLine("-----------------------------------------------------------------");
                     }
                 }
-                else
+                else if (comand != "4) Exit")
                 {
                     Console.WriteLine("Düzgün bir komanda daxil edin.");
+                    Console.WriteLine("-----------------------------------------------------------------");
                 }
 
                 Console.WriteLine();
-                Console.WriteLine("Zehmet olmasa bir komanda secin: ");
-                Console.WriteLine("1) Son valyuta mezennelerini gösterin");
-                Console.WriteLine("2) Valyuta mezennesini kodla tapin");
-                Console.WriteLine("3) Valyuta ile meblegi hesablayin");
-                Console.WriteLine("4) Exit");
-                comand = Console.ReadLine();
             }
         }
     }
-
 }
